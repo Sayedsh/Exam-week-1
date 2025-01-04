@@ -1,0 +1,22 @@
+You are tasked with creating a PHP program to manipulate strings in an array. Perform the following tasks:
+Filter strings that start with the letter A (case-insensitive) using the array_filter function.
+Convert all the strings in the filtered array to uppercase using the array_map function.
+Display the resulting array using the print_r() function.
+
+<?php
+
+// Given an array of random strings
+$randomStrings = ["Apple", "banana", "Apricot", "grape", "avocado", "Mango", "almond"];
+
+// Your Code goes here
+
+?>
+
+Expected Output:
+Array
+(
+    [0] => APPLE
+    [1] => APRICOT
+    [2] => AVOCADO
+    [3] => ALMOND
+)
