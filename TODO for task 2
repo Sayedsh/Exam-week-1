@@ -1,0 +1,38 @@
+Create a class named Student with the following specifications:
+
+Attributes:
+$name
+$grades (an array of numeric values)
+
+Methods:
+__construct($name, $grades) - Initialize the attributes.
+averageGrade() - Calculate and return the average of the grades.
+displayResult() - Print a message displaying the student's name and their average grade.
+
+ 
+<?php
+
+class Student {
+
+    // attributes
+    // constructor
+    public function __construct($name, $grades) {
+        // initialize
+    }
+
+    // method to calculate average
+    public function averageGrade() {
+        // calculate average
+    }
+
+    // method to display result
+    public function displayResult() {
+        // display result
+    }
+}
+
+// Example:
+$student = new Student("Alice", [85, 90, 78, 92]);
+$student->displayResult();
+
+?>
